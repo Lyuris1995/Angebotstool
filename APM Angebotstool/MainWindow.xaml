@@ -1,0 +1,22 @@
+﻿<Window x:Class="APM_Angebotstool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Angebots-App" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="Produktgruppe:"/>
+            <ComboBox x:Name="ProductGroupComboBox" SelectionChanged="ProductGroupComboBox_SelectionChanged">
+                <ComboBoxItem Content="Produktgruppe 1"/>
+                <ComboBoxItem Content="Produktgruppe 2"/>
+                <ComboBoxItem Content="Produktgruppe 3"/>
+            </ComboBox>
+
+            <StackPanel x:Name="ProductSelectionPanel" Visibility="Collapsed">
+                <Label Content="Produktauswahl:"/>
+                <ComboBox x:Name="ProductComboBox">
+                    <!-- Hier können Sie die Produkte für jede Produktgruppe hinzufügen -->
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

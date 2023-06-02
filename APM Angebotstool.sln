@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APM Angebotstool", "APM Angebotstool\APM Angebotstool.csproj", "{35C9B38B-E1EF-4EBF-957D-F59E9DC981EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C9B38B-E1EF-4EBF-957D-F59E9DC981EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C9B38B-E1EF-4EBF-957D-F59E9DC981EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C9B38B-E1EF-4EBF-957D-F59E9DC981EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C9B38B-E1EF-4EBF-957D-F59E9DC981EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C11261D5-E85F-4120-BCAE-B5E38C520A82}
+	EndGlobalSection
+EndGlobal
